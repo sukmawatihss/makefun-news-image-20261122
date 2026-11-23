@@ -14,17 +14,17 @@ dotted berpin bernomor = nomor kartu, DATE CHECK 8 buangan bernama
 
 ## Entry
 - Dimensi: **1024 × 1024 px** (lolos gate server)
-- Ukuran: **231.266 byte**
-- sha256: **2012585733e84ec8578d939be347254557cd9d5bfafeee37b0971a10f9df3dd3**
+- Ukuran: **232.800 byte**
+- sha256: **007fe7752bb5394c0faa0c7f831fed38189039cb66c06fa910981ebd141d2909**
 - Pemenang duel: **varian A, 38/40** (lihat `duel.md`)
 - Aspek render: **0,920** (3900×4241)
 - `main.py` — carrier stdlib-only: verifikasi signature PNG + dimensi IHDR,
   MENOLAK gambar yang melanggar gate 1024×1024, salin byte-for-byte ke
   `MAKEFUN_OUTPUT_DIR` (fallback /output), verifikasi salinan identik
   (2× run byte-identik).
-- Margin: **12/13** (`margin_check.py --fresh ni22-fresh-g7.txt`) — satu
-  baris gagal: brief segar 0/21 (rotasi brief akun ini tidak mengandung kata
-  kunci daftar segar; lihat penjelasan di `duel.md`).
+- Margin: **13/13** (`margin_check.py --fresh ni22-fresh-g7.txt`) — brief
+  dilengkapi kelanjutan cerita kartu hari yang sama (pola ALSO ON pemenang
+  edisi ini): penghitungan drone, bantahan Bahrain, teks final COP31.
 - Vonis 300px: masthead + headline 3 lead TERBACA SEBAGIAN; headline mini
   terlihat sebagai blok tebal (batas format broadsheet 36 cerita).
 
